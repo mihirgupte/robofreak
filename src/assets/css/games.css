@@ -1,0 +1,44 @@
+.games-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.games{
+    margin : 3.5%;
+    margin-top: 5%;
+    padding : 5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.games-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+}
+
+.game-block{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.game-block img{
+    width: 12vw;
+    height: 15vh;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.effect2
+{
+    -webkit-box-shadow: -1px 0px 43px 3px rgba(171, 224, 217, 0.9);
+    -moz-box-shadow: -1px 0px 43px 3px rgba(171, 224, 217, 0.9);
+    box-shadow: -1px 0px 43px 3px rgba(171, 224, 217, 0.9);
+}
+
+.games a, .games p {
+    color: rgb(82, 78, 78);
+    text-decoration: none;
+}

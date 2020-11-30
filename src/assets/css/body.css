@@ -1,0 +1,48 @@
+.info-block{
+    justify-content: center;
+    padding: 10%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+    grid-column: 2/span 3;
+    grid-row: 1/span 3;
+    width: 50%;
+    z-index: 2;
+    height: 35%;
+    margin-top: 5%;
+    font-size: 1.25vmax;
+    background-color: rgb(197, 240, 236);
+}
+
+ol {
+    padding-left: 0%;
+}
+
+li{
+    margin-bottom: 4%;
+}
+
+.plane{
+    width: 20vw;
+    height: 25vh;
+    margin: 35%;
+    margin-top: 45%;
+    grid-row: 1/span 1;
+    grid-column: 3/span 2;
+    z-index: 3;
+}
+
+.boy {
+    width: 45vw;
+    height: 45vh;
+    margin-top: 50%;
+    margin-right: 10%;
+    grid-column: 3/span 2;
+    grid-row: 1/span 1;
+}
+
+.other{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    column-gap: 2%;
+    margin: 5%;
+}
