@@ -8,7 +8,7 @@
     grid-row: 1/span 3;
     width: 50%;
     z-index: 2;
-    height: 35%;
+    height: 40%;
     margin-top: 5%;
     font-size: 1.25vmax;
     background-color: rgb(190, 245, 238);
@@ -46,6 +46,7 @@ li{
     grid-template-columns: repeat(6,1fr);
     column-gap: 2%;
     margin: 5%;
+    margin-top: 2.5%;
 }
 
 .info-block h2{
