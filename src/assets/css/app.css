@@ -11,7 +11,9 @@ body{
     margin-bottom: 0%;
 }
 
-.controller{
-    margin-left: 80%;
+.gamepad{
+    margin-left: 85%;
     margin-top: 0%;
+    width: 10vw;
+    height: 7.5vh;
 }

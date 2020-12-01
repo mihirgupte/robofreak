@@ -3,7 +3,7 @@ import Header from "./components/Header"
 import Games from "./components/Games"
 import Body from "./components/Body"
 import "./assets/css/app.css"
-import controller from "./assets/imgs/controller.png"
+import { GrGamepad } from "react-icons/gr";
 
 class App extends React.Component{
     render(){
@@ -11,6 +11,7 @@ class App extends React.Component{
             <div className="main-body">
                 <Header />
                 <Games />
+                <GrGamepad className="gamepad"/>
                 <Body />
             </div>
         )

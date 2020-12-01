@@ -1,6 +1,7 @@
 .info-block{
     justify-content: center;
     padding: 10%;
+    padding-top: 5.5%;
     padding-right: 5%;
     margin-bottom: 5%;
     grid-column: 2/span 3;
@@ -10,7 +11,7 @@
     height: 35%;
     margin-top: 5%;
     font-size: 1.25vmax;
-    background-color: rgb(197, 240, 236);
+    background-color: rgb(190, 245, 238);
 }
 
 ol {
@@ -45,4 +46,8 @@ li{
     grid-template-columns: repeat(6,1fr);
     column-gap: 2%;
     margin: 5%;
+}
+
+.info-block h2{
+    margin-bottom: 10%;
 }
