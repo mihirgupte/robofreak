@@ -2,11 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    font-size: 1vmax;
+    margin-left: -3%;
 }
 
 .games{
     margin : 3.5%;
     margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     padding : 5%;
     padding-top: 1.5%;
     padding-bottom: 1.5%;
@@ -18,6 +22,8 @@
     display: flex;
     justify-content: center;
     margin-top: 2.5%;
+    font-size: 1vmax;
+
 }
 
 .game-block{
@@ -41,4 +47,9 @@
 .games a, .games p {
     color: rgb(82, 78, 78);
     text-decoration: none;
+}
+
+.games h3{
+    color : rgb(59, 57, 57);
+    margin-left: 0%;
 }
